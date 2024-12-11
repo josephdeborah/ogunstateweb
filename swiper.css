@@ -1,0 +1,14 @@
+img{
+    position: relative;
+    width: 100%;
+}
+img::before{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    /* left: 0; */
+    width: 34vh;
+    height: 78vh;
+    background-color: #00000090;
+}

@@ -1,0 +1,627 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    outline: none;
+    font-family: "Open Sans", sans-serif
+}
+
+/* =====================openGovernment==================== */
+.openGovernmentSection{
+    font-family: "Inter", sans-serif;
+    padding-top: 24vh;
+}
+.openGovernmentSectionFText{
+    text-align: center;
+}
+.openGovernmentSectionFText h5{
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 36.31px;
+    color: #008747;
+}
+.openGovernmentSectionFText p{
+    margin-top: 13px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #000000;
+
+}
+.openGovernmentImg img{
+    width: 305px;
+    height: 273px;
+    /* top: 415px;
+    left: 60px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px; */
+
+}
+.openGovernmentImg{
+    position: relative;
+}
+.openGovernmentImgOverlay{
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 0 30px;
+}
+
+.opgImgOverlay img{
+    width: 18.13px;
+    height: 15.11px;
+    
+
+}
+.opgImgOverlay{
+     width: max-content;
+    padding: 4px 9px ;
+    border-radius: 3px;
+     background-color: #f5f5f5; 
+}
+.openGovernmentImgOverlay p{
+    
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 8px;
+    /* margin: 0 16% 0 14%; */
+    text-align: center !important;
+    line-height: 18.94px;
+    color: #FFFFFF;
+
+}
+.openGovernmentImgSection{
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+}
+.padding{
+    padding: 0 43px;
+}
+.openGovernmentSectionLText{
+    text-align: center;
+    margin-top: 19px;
+    padding: 0 12px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    
+
+}
+
+/* ================bills and section===================== */
+.billsSection{
+    margin-top: 23px;
+    font-family: "Inter", sans-serif;
+   background:url(images/bill.png) ;
+   height:max-content;
+
+   padding: 34px 0;
+   /* background-position: c; */
+   background-size: cover;
+}
+
+.billImg{
+    width: max-content;
+    padding: 12px;
+    background: #008747;
+    border-radius: 50%;
+}
+.billsCardSection{
+    display: flex;
+    padding: 0 43px;
+    gap: 12px;
+    justify-content: center;
+}
+.billImg img{
+    width: 50px;
+    height: 40px;
+}
+.billCardHeader{
+    font-size: 23px !important;
+    font-weight: 600;
+    line-height: 20.31px;
+    color:  #008747;
+    padding: 30px 0;
+}
+.billSectionHeader{
+    padding: 22px;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 58.09px;
+    word-spacing: 12px;
+    /* padding: 32px 0; */
+   text-align: center;
+
+}
+.billCardDes{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24.2px;
+    color: #081C13;
+
+    
+
+}
+.billCard{
+    background: #F5F5F599;
+    padding: 63px 27px;
+    border-radius: 10px;
+    width: 379px;
+    border: 2px solid #4FC38B;
+    height: 354px;
+    padding-bottom: 63px !important;
+    transition: all 3s ease;
+
+}
+.billCard:hover{
+    background-color: #00874790;
+    /* transform:translateY(-12px) ;
+    height: 454px; */
+}
+
+
+
+/* ==================budget section================ */
+.stateBudget{
+    margin-top: 34px;
+    background:url(images/Rectangle\ 34626922\ \(4\).png) ;
+    height:89vh;
+    padding: 24px  0 26px 0;
+ 
+    /* background-position: c; */
+    background-size: cover; 
+}
+.stateBudgetOverlay{
+    padding: 29px 0;
+    background-color:  #F5F5F5B2;
+    height: 100%;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.stateBudjectHeader{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.09px;
+    text-align: center;
+    color:  #016E3A;
+}
+.budjectImg{
+    width: max-content;
+    padding: 12px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: #067641;
+
+}
+.budjectImg img{
+    width: 30.62px;
+    height: 30.62px;
+    display: block;
+    margin: 0 auto !important;
+
+}
+.stateBudgetDes{
+    text-align: center;
+}
+.stateBudgetDes h5{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48.41px;
+    text-align: center;
+    color: #008747;
+
+}
+.stateBudgetDes p{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36.31px;
+    text-align: center;
+    color: #081C13;
+
+}
+/* =======================financial statement=================== */
+.financialSection{
+    margin-top: 29px;
+    background: #008747;
+    height: max-content;
+    padding: 23px;
+
+}
+.financialSectionHeader{
+    text-align: center !important;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 58.09px;
+    color:  #047B43;
+    padding: 15px 38px;
+    background: #FBFBFB;
+    width: max-content;
+    margin: 0 auto;
+    border-radius:15px;
+
+}
+.financialCardImg{
+    width: max-content;
+    padding: 14px;
+    background: #f5f5f5;
+    border-radius: 50%;
+}
+.financialCardImg img{
+    width: 50px;
+    height: 40px;
+}
+.financialCardTextHeader{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 36.31px;
+    color: #f5f5f5;
+}
+.financialCardText p{
+   
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30.26px;
+    color: #f5f5f5;
+
+}
+.financialSectionCards{
+    margin-top: 32px;
+}
+.financialSectionCards{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    padding: 0 29px;
+}
+.financialSectionCard{
+    display: flex;
+    padding: 20px 160px;
+    gap: 23px;
+    border: 2px solid #EFEFEF;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 28px;
+    transition: all ease 3s;
+}
+.financialSectionCard:hover{
+    /* padding: 23px 29px; */
+    background-color: #016E3A90 ;
+}
+
+/* =================statictics section=============== */
+.staticticsSection{
+    margin-top: 28px;
+}
+.staticticsSectionHeader h5{
+    font-size: 40.5px;
+    font-weight: 700;
+    line-height: 58.09px;
+    text-align: center;
+    color: #008747;
+}
+.staticticsSectionHeader{
+    width: max-content;
+    margin: 0 auto;
+    padding:12px 50px;
+    
+    border-left:2px solid #008747 ;
+    border-bottom:2px solid #008747 ;
+    border-bottom-left-radius: 10px;
+
+
+}
+.staticticsCardImg{
+    width: max-content;
+    padding: 14px;
+    background: #008747;
+    border-radius: 50%;
+    transition: all ease 3s;
+}
+.staticticsCardImg img{
+    width: 34px;
+    height: 30px;
+}
+.staticticsCardImg:hover{
+    transform: translateX(-12px);
+}
+.staticticsSectionCard{
+   
+
+
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 34px;
+    padding: 0 319px;
+    gap: 12px;
+}
+.staticticsCardTextHeader {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36.31px;
+    color: #008747;
+
+}
+.staticticsCardText p{
+    margin-top: 10px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 20.26px;
+    color: #008747;
+    /* text-align: center; */
+
+}
+/* .{
+    margin-top: 23px;
+} */
+
+
+
+
+/* ==================procurement section================ */
+.procurement{
+    margin-top: 34px;
+    background-image:url(images/Rectangle\ 34626963.png);
+    height:89vh;
+    padding: 24px  0 26px 0;
+ 
+    /* background-position: c; */
+    background-size: cover; 
+}
+.procurementOverlay{
+    padding: 29px 0;
+    background-color:  #F5F5F5B2;
+    height: 100%;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.procurementHeader{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.09px;
+    text-align: center;
+    color:  #016E3A;
+}
+.procurementImg{
+    width: max-content;
+    padding: 12px;
+    border-radius: 50%;
+    margin: 0 auto;
+    height: max-content;
+    background: #067641;
+
+}
+.procurementImg img{
+    width: 30.92px;
+    height: 30.92px;
+    display: block;
+    margin: 0 auto !important;
+    transition: all ease 3s;
+
+}
+.procurementImg:hover{
+    background-color:#4FC38B;
+}
+.procurementDes{
+    text-align: center;
+}
+.procurementDes h5{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48.41px;
+    text-align: center;
+    color: #008747;
+    text-transform: capitalize;
+
+}
+.procurementDes p{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36.31px;
+    text-align: center;
+    color: #081C13;
+    margin-top: 20px;
+    text-transform: capitalize;
+
+}
+/* ==============max width 834px================ */
+@media (max-width:834px){
+    .openGovernmentSection{
+        padding-top: 14vh;
+    }
+    .openGovernmentImgSection{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .billsCardSection{
+        flex-wrap: wrap;
+    }
+    
+    .financialSection{
+        padding: 23px 0;
+    }
+    .financialSectionHeader{
+        font-size: 30px;
+        padding: 10px 19px;
+    
+    }
+    .financialSectionCards{
+        display: flex;
+        flex-direction: column;
+        gap: 29px;
+        padding: 0 9px;
+    }
+   
+    .billCard{
+        background: #F5F5F599;
+        padding: 63px 27px;
+        border-radius: 10px;
+        width: 279px;
+        border: 2px solid #4FC38B;
+        height: 354px;
+        padding-bottom: 63px !important;
+        transition: all 3s ease;
+    
+    }
+    .procurement{
+        height: 67vh;
+    }
+    .staticticsSectionCard{
+        padding: 0 24px ;
+        gap: 9px;
+    }
+
+
+} 
+@media (max-width:768px){
+    .openGovernmentSection{
+        padding-top: 20vh;
+    }
+    
+    .procurementDes h5{
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 40.41px;
+        text-align: center;
+        color: #008747;
+    
+    }
+    
+    .procurementDes p{
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 30.31px;
+        text-align: center;
+        color: #081C13;
+    
+    }
+    .procurementHeader{
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 58.09px;
+        text-align: center;
+        color:  #016E3A;
+    }  
+    .financialSectionCard{
+        padding: 30px 9px;
+        width: 357px;
+        height: 162px;
+    } 
+    .financialSectionCard{
+        padding: 30px 9px;
+        width: 100%;
+        height: 162px;
+    }
+    .financialCardTextHeader{
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 26.31px;
+        color: #f5f5f5;
+    }
+    .financialCardText p{
+       
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20.26px;
+        color: #f5f5f5;
+    
+    }
+    .openGovernmentImgSection{
+        justify-content: center;
+    }
+    .staticticsSectionHeader h5{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28.09px;
+        text-align: center;
+        color: #008747;}
+    .staticticsSectionHeader{
+        padding: 9px 7px;
+    }
+    .staticticsCardTextHeader {
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 26.31px;
+        color: #008747;
+    
+    }
+    .staticticsCardText p{
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20.26px;
+        color: #008747;
+        /* text-align: center; */
+    
+    }
+}
+        
+ 
+@media (max-width:320px){
+    .billCard{
+        background: #F5F5F599;
+        padding: 63px 27px;
+        border-radius: 10px;
+        width:90%;
+        height: 354px;
+        padding-bottom: 63px !important;
+        transition: all 3s ease;
+    
+    }
+    
+    .billsCardSection{
+        padding: 0;
+    }
+    .financialSectionCard{
+        padding: 45px 9px;
+        width: 100%;
+        height: 182px;
+    }
+    .staticticsSectionHeader h5{
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 58.09px;
+        text-align: center;
+        color: #008747;
+    }.staticticsSectionHeader{
+        margin: 9px auto;
+        padding:10px 10px;
+    }
+    .staticticsSectionCard{
+        padding: 0 ;
+        gap: 9px;
+    }
+    .staticticsCardTextHeader {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 26.31px;
+        color: #008747;
+    
+    }
+    .staticticsCardText p{
+        margin-top: 10px;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20.26px;
+        color: #008747;
+        /* text-align: center; */
+    
+    }
+}
